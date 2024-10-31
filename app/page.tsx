@@ -4,17 +4,19 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Some information about me 
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`I'm a software engineer at Hewlett Packard Enterprise (HPE) where I am currently assisting on a Federal Account, assisting with the deployment of HPE's disconnected Hybrid Ops Console (a solution incorporating ServiceNow).`}
+      </p>
+      <p className='mb-4'>
+        {`I was born and raised in Long Island, New York. In August 2023, I packed my bags and moved down south to peach-country to work at an HPE office in Alpharetta, Georgia.`}
+      </p>
+      <p className='mb-4'>
+        {`My alma mater is SUNY Stony Brook University, where I studied Computer Science and graduated in Summer 2023.`}
       </p>
       <div className="my-8">
-        <BlogPosts />
+        {/* <BlogPosts /> */}
       </div>
     </section>
   )
